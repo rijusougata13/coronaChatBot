@@ -1,0 +1,2 @@
+model_checkpoint_path: "/media/sougata/primary/github/coronaChatBot/model.tflearn"
+all_model_checkpoint_paths: "/media/sougata/primary/github/coronaChatBot/model.tflearn"

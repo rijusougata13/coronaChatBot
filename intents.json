@@ -1,0 +1,50 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "its nice to see you :>", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","bye","tata"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["who are you?","what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me CovidChatBot.", "I'm CovidChatBot!", "Hey I'm CovidChatBot"],
+         "context_set": ""
+        },
+       	{
+       		"tag":"covid-information",
+       		"patterns":["what is coronavirus","what is covid-19","wht iscorona virus"],
+       		"responses":["Coronaviruses are a large family of viruses which may cause illness in animals or humans.  In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS). The most recently discovered coronavirus causes coronavirus disease COVID-19.","COVID-19 is the infectious disease caused by the most recently discovered coronavirus. This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019","for more information about it go--> https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen "],
+       		"context_set": ""
+       	},
+       	{
+       		"tag":"symptops",
+       		"patterns":["how can i know that i am affected with coron virus","am i affected?","waht is its symptops?"],
+       		"responses":["The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually. Some people become infected but don’t develop any symptoms and don't feel unwell. Most people (about 80%) recover from the disease without needing special treatment. Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing. Older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention.","If you develop emergency warning signs for COVID-19 get medical attention immediately. Emergency warning signs include*-->a>Trouble breathing b>Persistent pain or pressure in the chest  c>New confusion or inability to arouse  d>Bluish lips or face","for more information go--> https://www.healthline.com/health/coronavirus-covid-19#symptoms"],
+       		"context_set": ""
+       	},
+       	{
+       		"tag":"precaution",
+       		"patterns":["what precaution i can take agaist it? ","what precaution i have to take agaist it? ","what precaution i have to maintain ","what steps i need to folow","how to save my myself from it?","how to get rid of it?","and what can i do?","and "],
+       		"responses":["Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.","Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing.","Avoid touching eyes, nose and mouth.","Make sure you, and the people around you, follow good respiratory hygiene. This means covering your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately.","Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance. Follow the directions of your local health authority.","for more information go --> https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html"],
+       		"context_set": ""
+       	},
+       	{
+       		"tag":"solution",
+       		"patterns":["what medicine i should take for it?","is any antibotics work effective for this","is coronavirus has any solution?","can it be cured?","what is risk of it?","is there any solution to stop it?","is there any vaccine or drug to stop the coronavirus?","is there any treatment for this?"],
+       		"responses":["Antibiotics do not work against viruses, they only work on bacterial infections. COVID-19 is caused by a virus, so antibiotics do not work","While some western, traditional or home remedies may provide comfort and alleviate symptoms of COVID-19, there is no evidence that current medicine can prevent or cure the disease. ","WHO does not recommend self-medication with any medicines, including antibiotics, as a prevention or cure for COVID-19. However, there are several ongoing clinical trials that include both western and traditional medicines. WHO will continue to provide updated information as soon as clinical findings are available.","Not yet. To date, there is no vaccine and no specific antiviral medicine to prevent or treat COVID-2019. However, those affected should receive care to relieve symptoms. People with serious illness should be hospitalized. Most patients recover thanks to supportive care.","Possible vaccines and some specific drug treatments are under investigation. They are being tested through clinical trials. WHO is coordinating efforts to develop vaccines and medicines to prevent and treat COVID-19."],
+       		"context_set": ""
+       	},
+       	
+       	{
+       		"tag":"help",
+       		"patterns":["what can you do for me?","what can you do","what can you do","how you can help me","i need advice"],
+           	"responses":["i can give you the information about coronavirus","i can help you to know what is covid-19","you can ask me question about coronavirus or any precautions or safety"],
+       		"context_set": ""
+       	}
+       	
+   ]
+}
