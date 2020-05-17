@@ -151,3 +151,4 @@ def chat():
             print('BOT : i didnot get it :< ask me another question')
 
 chat()
+a=input()
